@@ -12,8 +12,12 @@ macOS 14 ou plus récent, Apple Silicon. Homebrew installé.
 
 ```sh
 brew tap leozerbib/interwarp https://github.com/Leozerbib/interwarp-releases
+brew trust leozerbib/interwarp
 brew install --cask interwarp
 ```
+
+`brew trust` ne se fait qu'une fois : les versions récentes de Homebrew refusent de charger une cask venue d'un
+tap tiers tant qu'on ne l'a pas approuvé.
 
 L'app va dans `/Applications`. Sans droits admin : `brew install --cask --appdir=~/Applications interwarp`
 (ou `export HOMEBREW_CASK_OPTS="--appdir=~/Applications"` dans ton `~/.zprofile`, pour les mises à jour aussi).
