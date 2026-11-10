@@ -1,6 +1,6 @@
 cask "interwarp" do
-  version "1.1.2"
-  sha256 "6a656f404ffa965d6616a9cd99c81ada172f4637e00af9a047ec745d48e3dd15"
+  version "1.2.0"
+  sha256 "8adc06fc13f113cf5e183a749c3373ff3c556600c848762ecb47034080d67a40"
 
   url "https://github.com/Leozerbib/interwarp-releases/releases/download/v#{version}/Interwarp-#{version}.zip"
   name "Interwarp"
@@ -36,6 +36,6 @@ cask "interwarp" do
     Sur un Mac géré, si un outil de l'entreprise bloque l'app, passe par l'IT : ne contourne rien.
 
     Mise à jour : brew upgrade --cask interwarp
-    Le certificat reste le même d'une version à l'autre : le Trousseau ne devrait rien redemander.
+    Les jetons des connecteurs survivent à la mise à jour : ils ne dépendent pas de la signature.
   EOS
 end

@@ -1,12 +1,12 @@
 {
-  "version": "1.1.2",
-  "build": 139,
-  "tag": "v1.1.2",
-  "url": "https://github.com/Leozerbib/interwarp-releases/releases/download/v1.1.2/Interwarp-1.1.2.zip",
-  "sha256": "6a656f404ffa965d6616a9cd99c81ada172f4637e00af9a047ec745d48e3dd15",
-  "taille": 27572181,
+  "version": "1.2.0",
+  "build": 149,
+  "tag": "v1.2.0",
+  "url": "https://github.com/Leozerbib/interwarp-releases/releases/download/v1.2.0/Interwarp-1.2.0.zip",
+  "sha256": "8adc06fc13f113cf5e183a749c3373ff3c556600c848762ecb47034080d67a40",
+  "taille": 27778359,
   "macosMinimum": "14.0",
   "bundleId": "io.github.leozerbib.interwarp",
   "certificatSHA1": "E7916CA05308A3F56AFA2915DA52DBF3C531E7BF",
-  "publieLe": "2026-11-10T16:54:35Z"
+  "publieLe": "2026-11-10T18:26:21Z"
 }
