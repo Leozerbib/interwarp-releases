@@ -1,6 +1,6 @@
 cask "interwarp" do
-  version "1.5.1"
-  sha256 "53ff8ad1a5259b3439ecd1f2ffa14a9bf76ecb4b6cac4e24c60e297cbd17d764"
+  version "1.5.2"
+  sha256 "d8f56fd65cdb49a814412855563cc64c6e9f77c8f497c255c87fa1a2627a6d2f"
 
   url "https://github.com/Leozerbib/interwarp-releases/releases/download/v#{version}/Interwarp-#{version}.zip"
   name "Interwarp"
