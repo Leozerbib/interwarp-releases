@@ -1,6 +1,6 @@
 cask "interwarp" do
-  version "1.6.0"
-  sha256 "ad7ec3523c4a12453e34aaa6ea55317beddb3ba29a82d14501e28935ec50111b"
+  version "1.6.1"
+  sha256 "e0f7f5aeab5545d5f1b7f325eaab4e338a69bdb450f481a96fc35c98779f253f"
 
   url "https://github.com/Leozerbib/interwarp-releases/releases/download/v#{version}/Interwarp-#{version}.zip"
   name "Interwarp"
@@ -13,7 +13,7 @@ cask "interwarp" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: :sonoma
+  depends_on macos: :tahoe
 
   app "Interwarp.app"
 

@@ -8,7 +8,7 @@ Chaque fichier est écrit par la publication automatique d'une version : ne le m
 
 ## Installer
 
-macOS 14 ou plus récent, Apple Silicon. Homebrew installé.
+macOS 26 (Tahoe) ou plus récent, Apple Silicon. Homebrew installé.
 
 ```sh
 brew tap leozerbib/interwarp https://github.com/Leozerbib/interwarp-releases
